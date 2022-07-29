@@ -1,4 +1,4 @@
-To use a custom skin, you'll need to create a directory `styleCustomization/backgroundPacks` in the application persistent data path. This directory can also be created and opened from the in-game customization settings.
+To use custom backgrounds, you'll need to create a directory `styleCustomization/backgroundPacks` in the application persistent data path. This directory can also be created and opened from the in-game customization settings.
 
 ## Creating a custom background pack
 
@@ -14,13 +14,13 @@ To use a custom skin, you'll need to create a directory `styleCustomization/back
 ## Background names
 You can customize your backgrounds separately for each scene. Create a directory for scene you want to customize (`default`, if you want this background used in all scenes) and name it according to this table. When the scene is loaded, background will be randomly picked from one of the files in the according directory. Background names **are case sensitive**.
 
-| Scene         | Background name  |
+|     Scene     | Background name  |
 | :-----------: | :--------------: |
-| All scenes    | `default`        |
-| Main menu     | `mainMenu`       |
-| Settings      | `globalSettings` |
-| Game settings | `gameSettings`   |
-| Custom game   | `gameCustom`     |
+|  All scenes   |    `default`     |
+|   Main menu   |    `mainMenu`    |
+|   Settings    | `globalSettings` |
+| Game settings |  `gameSettings`  |
+|  Custom game  |   `gameCustom`   |
 
 You can also just use single file instead of a directory. In this case, the file will need to be named accordingly (except for extension). If you have both the background file and directory defined, the game will pick one at random - the backgrounds are loading asynchronously and whichever the game picks last will be the one used.
 

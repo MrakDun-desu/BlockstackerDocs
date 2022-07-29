@@ -1,0 +1,10 @@
+{
+  "GameMusic": ["Skydiving", "Rain", "Classic 1"],
+  "MenuMusic": ["Rust"],
+  "VictoryMusic": [],
+  "LossMusic": [],
+  "GameMusicGroups": {
+    "Chill Music": ["Rain"],
+    "Fast Music": ["Skydiving", "Classic 1"]
+  }
+}
