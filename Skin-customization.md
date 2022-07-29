@@ -3,72 +3,130 @@ To use a custom skin, you'll need to create a directory `styleCustomization/skin
 ## Creating a custom skin
 
 1. Think up your own skin name and create a directory named after it in the `skins` directory.
-2. Create the skin files as explained [here](#supported-skin-formats)
-3. Put your skin files in your skin directory and name them accordingly. Naming conventions are explained [here](#naming-conventions).
-4. Pick your skin in the game customization settings and wait for it to load.
+2. Create the skin files.
+3. Create a `skinConfig.json` file and specify how your skins should work. Explained [here](#skinConfig.json-file).
+4. Put your skin files in your skin directory.
+5. Pick your skin in the game customization settings and wait for it to load.
 
 ## Loading a premade skin
 
 1. Copy the skin source directory into the `skins` directory.
 2. Pick your skin in the game customization settings and wait for it to load.
 
-## Supported skin formats
-BlockStacker-desu currently supports the same formats as [Tetr.io plus](https://gitlab.com/UniQMG/tetrio-plus/-/wikis/custom-skins) with exceptions of GIF and SVG formats. The used skin format is determined by [naming](#naming-conventions) and by the image dimensions.
+## `skinConfig.json` file
 
-In case the skin file is 128x128px, it is assumed that file is a Tetr.io 6.10 ghost.<br/>
-In case the skin file is 256x256px, it is assumed that file is a Tetr.io 6.10 skin.<br/>
-In case the skin file is 512x512px, it is assumed that file is a Tetr.io 6.10 connected ghost.<br/>
-In case the skin file is 1024x1024px, it is assumed that file is a Tetr.io 6.10 connected skin.<br/>
-These skin formats have a block size of 46x46px with 1px of padding on each side, so 48x48px.
+This file contains all information on how the skins should be loaded and then processed. You can pick skins for all different types of blocks and even individually for each block in the piece if you want.
 
-In other cases, the skin loader tries to detect skin format by the aspect ratio.<br/>
-In case the aspect ratio is 9/1, it is assumed that file is a Jstris skin.<br/>
-Block size in this format is same as the skin height, with no gaps.
+`skinConfig.json` is a collection of skin records. You'll need to specify one record for each different skin that you'd like to load. One record looks like this:
 
-In case the aspect ratio is 12.4/1, it is assumed that file is an old Tetr.io skin.<br/>
-Block size in this format is the same as skin height. The skin has gaps of 1px on the right side of each block.
+```json
+{
+    "SkinType": "i",
+    "BlockNumbers": [0, 1, 2, 3],
+    "Layer": 0,
+    "IsConnected": false,
+    "RotateWithPiece": false,
+    "AnimationFps": 60.0,
+    "Sprites": [
+        {
+            "Filename": "skin.png",
+            "LoadFromUrl": false,
+            "PixelsPerUnit": 30.0,
+            "PivotPoint": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "SpriteStart": {
+                "x": 186.0,
+                "y": 0.0
+            },
+            "SpriteSize": {
+                "x": 30.0,
+                "y": 30.0
+            }
+        }
+    ],
+    "ConnectedSprites": [
+        {
+            "ConnectedEdges": 7,
+            "Sprites": []
+        }
+    ],
+}
+```
 
-In case the aspect ratio is 9/20, it is assumed that file is a Jstris connected skin.<br/>
-Block size in this format is determined by width/9, with no gaps.
+Explanation of each field:
+### `SkinType`
+Type of the block that this will be applied to. Currently valid values are:
+- "z" - Z piece blocks
+- "l" - L piece blocks
+- "o" - O piece blocks
+- "s" - S piece blocks
+- "i" - I piece blocks
+- "j" - J piece blocks
+- "t" - T piece blocks
+- "usedHold" - blocks in hold piece when it's not available
+- "ghost" - ghost piece blocks
+- "warning" - warning blocks that signal the spawning position of next piece
+- "grid" - blocks of the board grid
+### `BlockNumbers` 
+Array of numbers that this skin will be applied to. Works for every skin except for the grid, where all blocks are treated as number 0. Is set to `[0, 1, 2, 3]` by default (all blocks in piece). Accepts arrays of unsigned integers.
+### `Layer` 
+In case there are multiple skins for this block, layer on which this skin should be rendered on. The higher number, the higher priority of skin rendering. Is set to 0 by default. Accepts integer values.
+### `IsConnected`
+If this skin is in connected format, should be set to true. In that case the sprites will be read from the `ConnectedSprites` instead of `Sprites` field. Is set to `false` by default. Accepts boolean values.
 
-All skins can be either still or animated. If the skin is animated, it will be identified by all the skin files ending with numbers starting with 0, representing the animation sequence.
+### `RotateWithPiece`
+If this skin should rotate when piece rotates, should be set to true. Is set to false by default. Accepts boolean values.
 
-### Examples
-Tetr.io 6.10 ghost:
+### `AnimationFps`
+If this skin is animated, this is the amount of frames per second that will it will be animated at. Skin is treated as animated by specifying multiple sprites in the `Sprites` field (in case of connected skin, each connected part can be animated as well). Is set to 60 by default. Accepts floating point values.
 
-![ghost](https://user-images.githubusercontent.com/39689572/173831685-06f0c13f-eb97-4479-80dd-a24290078da5.png)
+### `Sprites`
+Array of sprite records that are used in this skin. If the skin is not animated, should be array with one value. If the skin is connected, should be left empty. This field is an array of objects and each object has these fields:
 
-Tetr.io 6.10 skin: 
+#### `Filename`
+Path to the file in which this sprite is present in. If `LoadFromUrl` is set to false, this is treated as relative path in skin folder. If `LoadFromUrl` is set to true, this is treated as a URL and will try to load sprite from the internet. If the file is not found, it is treated as if the sprite record did not exist. Is set to false by default. Accepts string values.
 
-![skin](https://user-images.githubusercontent.com/39689572/173831480-d55a0e04-3767-4399-92b9-0fdcb769c927.png)
+#### `LoadFromUrl`
+Specifies if the skin should be loaded from URL or from relative path in current skin folder. Accepts boolean values.
 
-Tetr.io 6.10 connected ghost:
+<span style="color: red">Note: if this is set to true, skins are loaded from URL every time the application starts. Be sure to download the skin files if you don't have access to the internet all the time.</span>
 
-![Connected ghost](https://user-images.githubusercontent.com/39689572/173834549-c70ecd39-a4cc-43a7-8f7b-86cdbff4dc7b.png)
+#### `PixelsPerUnit`
+Amount of pixels per unit (one block is exactly 1 by 1 unit). Accepts floating point values bigger than zero.
 
-Tetr.io 6.10 connected skin:
+#### `PivotPoint`
+Relative position within the sprite that will be treated as the center of the sprite. You can change this if you want to offset your skins. Is set to `{"x": 0.5, "y": 0.5}` by default. Accepts objects with x and y properties, each a floating point value between 0 and 1.
 
-![Connected skin](https://user-images.githubusercontent.com/39689572/173832471-640cb751-40e7-4ebd-91c3-6cee1aa21141.png)
+#### `SpriteStart`
+Position within the image in pixels where the sprite is starting. Pixels are counted from bottom left of the image. Is set to `{"x": 0, "y": 0}` by default. Accepts objects with x and y properties, each a floating point value bigger than zero.
 
-Tetr.io old skin:
+#### `SpriteSize`
+Size of the sprite in pixels. Using `SpriteStart` and `SpriteSize`, sprites are sliced out of the images from which they are loaded. These values are counted from bottom left to top right. Is set to `{"x": 64, "y": 64}` by default. Accepts objects with x and y properties, each a floating point value bigger than zero.
 
-![tetrio](https://user-images.githubusercontent.com/39689572/173828901-a0f5d377-1319-4faf-abb4-5e8ad00bc354.png)
+### `ConnectedSprites`
+Array of connected sprite records that are used in this skin. If this skin is not connected, should be left empty. Each value is an object with one `Sprites` field, which is the same as main `Sprites` field, and one `Edges` field.
 
-Jstris skin:
+`Edges` field is an integer between 0 and 255. It is a collection of bit flags for each of the edges and corners in a connected sprite.
 
-![jstris](https://user-images.githubusercontent.com/39689572/173830251-a9a4aefa-65f1-412a-a528-9f7468393d13.png)
+These are the flags:
+- 1 - Top 
+- 2 - Left
+- 4 - Right
+- 8 - Bottom
+- 16 - TopLeft
+- 32 - TopRight
+- 64 - BottomLeft
+- 128 - BottomRight
 
-Jstris connected skin:
+If the flag is set, the sprite has an edge on that side/corner. For example, if the sprite has edges on top and left sides, the `Edges` field should be set to 3.
 
-![jstris connected](https://user-images.githubusercontent.com/39689572/173830359-aad61350-94cb-40ac-825b-9b847ac352ab.png)
+Corner flags (16 and higher) should be set only if the edge is only the corner, not adjacent sides. For example if the skin has top and left edges and bottom right corner, the `Edges` field should be set to 131, not 147.
 
+## Templates for used skin formats
 
-## Naming conventions
-Skin files should be named either just `skin` or exactly the same as skin name (excluding extension).
-
-In case of Tetr.io 6.10 skin formats, ghost skin files should have suffix `ghost`.
-
-In case of animated skins, all skin files should end with numbers, starting with 0.
+// TODO
 
 ## Supported file types
 
