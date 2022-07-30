@@ -1,0 +1,4420 @@
+[
+  {
+    "SkinType": "z",
+    "IsConnected": true,
+    "ConnectedSprites": [
+      {
+        "Edges": 7,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 3,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 1,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 5,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 6,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 2,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 0,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 4,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 14,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 10,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 8,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 12,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 15,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 11,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 9,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 13,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 131,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 69,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 56,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 162,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 42,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 737.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 28,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 737.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 193,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 737.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 84,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 737.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "SkinType": "l",
+    "IsConnected": true,
+    "ConnectedSprites": [
+      {
+        "Edges": 7,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 3,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 1,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 5,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 6,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 2,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 0,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 4,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 14,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 10,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 8,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 12,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 15,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 11,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 9,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 13,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 131,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 69,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 56,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 162,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 42,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 737.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 28,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 737.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 193,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 737.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 84,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 737.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "SkinType": "o",
+    "IsConnected": true,
+    "ConnectedSprites": [
+      {
+        "Edges": 7,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 385.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 3,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 433.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 1,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 481.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 5,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 529.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 6,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 385.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 2,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 433.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 0,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 481.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 4,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 529.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 14,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 385.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 10,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 433.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 8,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 481.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 12,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 529.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 15,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 385.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 11,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 433.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 9,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 481.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 13,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 529.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 131,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 385.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 69,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 433.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 56,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 481.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 162,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 529.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 42,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 385.0,
+              "y": 737.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 28,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 433.0,
+              "y": 737.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 193,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 481.0,
+              "y": 737.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 84,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 529.0,
+              "y": 737.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "SkinType": "s",
+    "IsConnected": true,
+    "ConnectedSprites": [
+      {
+        "Edges": 7,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 577.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 3,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 625.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 1,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 673.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 5,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 721.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 6,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 577.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 2,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 625.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 0,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 673.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 4,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 721.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 14,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 577.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 10,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 625.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 8,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 673.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 12,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 721.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 15,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 577.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 11,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 625.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 9,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 673.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 13,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 721.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 131,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 577.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 69,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 625.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 56,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 673.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 162,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 721.0,
+              "y": 785.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 42,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 577.0,
+              "y": 737.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 28,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 625.0,
+              "y": 737.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 193,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 673.0,
+              "y": 737.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 84,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 721.0,
+              "y": 737.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "SkinType": "garbage",
+    "IsConnected": true,
+    "ConnectedSprites": [
+      {
+        "Edges": 7,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 769.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 3,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 817.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 1,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 865.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 5,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 913.0,
+              "y": 977.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 6,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 769.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 2,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 817.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 0,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 865.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 4,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 913.0,
+              "y": 929.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 14,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 769.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 10,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 817.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 8,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 865.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 12,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 913.0,
+              "y": 881.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 15,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 769.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 11,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 817.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 9,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 865.0,
+              "y": 833.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 13,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 913.0,
+              "y": 833.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "SkinType": "i",
+    "IsConnected": true,
+    "ConnectedSprites": [
+      {
+        "Edges": 7,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 3,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 1,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 5,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 6,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 2,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 0,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 4,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 14,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 10,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 8,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 12,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 15,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 11,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 9,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 13,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 131,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 69,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 56,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 162,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 42,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 449.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 28,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 449.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 193,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 449.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 84,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 449.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "SkinType": "j",
+    "IsConnected": true,
+    "ConnectedSprites": [
+      {
+        "Edges": 7,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 3,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 1,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 5,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 6,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 2,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 0,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 4,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 14,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 10,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 8,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 12,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 15,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 11,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 9,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 13,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 131,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 69,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 56,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 162,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 42,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 449.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 28,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 449.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 193,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 449.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 84,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 449.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "SkinType": "t",
+    "IsConnected": true,
+    "ConnectedSprites": [
+      {
+        "Edges": 7,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 385.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 3,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 433.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 1,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 481.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 5,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 529.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 6,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 385.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 2,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 433.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 0,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 481.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 4,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 529.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 14,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 385.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 10,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 433.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 8,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 481.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 12,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 529.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 15,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 385.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 11,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 433.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 9,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 481.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 13,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 529.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 131,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 385.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 69,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 433.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 56,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 481.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 162,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 529.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 42,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 385.0,
+              "y": 449.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 28,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 433.0,
+              "y": 449.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 193,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 481.0,
+              "y": 449.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 84,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 529.0,
+              "y": 449.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "SkinType": "ghost",
+    "IsConnected": true,
+    "ConnectedSprites": [
+      {
+        "Edges": 7,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 465.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 3,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 465.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 1,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 465.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 5,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 465.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 6,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 417.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 2,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 417.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 0,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 417.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 4,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 417.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 14,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 369.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 10,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 369.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 8,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 369.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 12,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 369.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 15,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 321.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 11,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 321.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 9,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 321.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 13,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 321.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 131,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 273.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 69,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 273.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 56,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 273.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 162,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 273.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 42,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 1.0,
+              "y": 225.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 28,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 49.0,
+              "y": 225.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 193,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 97.0,
+              "y": 225.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 84,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 145.0,
+              "y": 225.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "SkinType": "usedHold",
+    "IsConnected": true,
+    "ConnectedSprites": [
+      {
+        "Edges": 7,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 577.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 3,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 625.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 1,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 673.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 5,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 721.0,
+              "y": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 6,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 577.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 2,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 625.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 0,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 673.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 4,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 721.0,
+              "y": 641.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 14,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 577.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 10,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 625.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 8,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 673.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 12,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 721.0,
+              "y": 593.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 15,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 577.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 11,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 625.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 9,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 673.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 13,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 721.0,
+              "y": 545.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 131,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 577.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 69,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 625.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 56,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 673.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 162,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 721.0,
+              "y": 497.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 42,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 577.0,
+              "y": 449.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 28,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 625.0,
+              "y": 449.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 193,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 673.0,
+              "y": 449.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 84,
+        "Sprites": [
+          {
+            "Filename": "connected.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 721.0,
+              "y": 449.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "SkinType": "warning",
+    "IsConnected": true,
+    "ConnectedSprites": [
+      {
+        "Edges": 7,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 465.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 3,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 465.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 1,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 465.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 5,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 465.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 6,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 417.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 2,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 417.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 0,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 417.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 4,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 417.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 14,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 369.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 10,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 369.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 8,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 369.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 12,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 369.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 15,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 321.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 11,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 321.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 9,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 321.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 13,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 321.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 131,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 273.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 69,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 273.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 56,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 273.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 162,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 273.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 42,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 193.0,
+              "y": 225.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 28,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 241.0,
+              "y": 225.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 193,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 289.0,
+              "y": 225.0
+            }
+          }
+        ]
+      },
+      {
+        "Edges": 84,
+        "Sprites": [
+          {
+            "Filename": "connectedghost.png",
+            "PixelsPerUnit": 46.0,
+            "SpriteSize": {
+              "x": 46.0,
+              "y": 46.0
+            },
+            "SpriteStart": {
+              "x": 337.0,
+              "y": 225.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

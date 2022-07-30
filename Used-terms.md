@@ -1,5 +1,5 @@
 ## Persistent data path
-Persistent data path is where Unity (in which BlockStacker-desu is developed in) stores your local data. Here is a table on where you can find this on different operating systems. Taken from [Unity docs](https://docs.unity3d.com/ScriptReference/Application-persistentDataPath.html).
+Persistent data path is where Blockstacker-desu stores your local data. Here is a table where you can find this on different operating systems. Taken from [Unity docs](https://docs.unity3d.com/ScriptReference/Application-persistentDataPath.html).
 
 | Operating system | Persistent data path                                           |
 | :--------------- | :------------------------------------------------------------- |

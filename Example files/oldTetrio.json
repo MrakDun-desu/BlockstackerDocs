@@ -1,0 +1,172 @@
+[
+  {
+    "SkinType": "z",
+    "Sprites": [
+      {
+        "Filename": "skin.png",
+        "PixelsPerUnit": 30.0,
+        "SpriteStart": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "SpriteSize": {
+          "x": 30.0,
+          "y": 30.0
+        }
+      }
+    ]
+  },
+  {
+    "SkinType": "l",
+    "Sprites": [
+      {
+        "Filename": "skin.png",
+        "PixelsPerUnit": 30.0,
+        "SpriteStart": {
+          "x": 31.0,
+          "y": 0.0
+        },
+        "SpriteSize": {
+          "x": 30.0,
+          "y": 30.0
+        }
+      }
+    ]
+  },
+  {
+    "SkinType": "o",
+    "Sprites": [
+      {
+        "Filename": "skin.png",
+        "PixelsPerUnit": 30.0,
+        "SpriteStart": {
+          "x": 62.0,
+          "y": 0.0
+        },
+        "SpriteSize": {
+          "x": 30.0,
+          "y": 30.0
+        }
+      }
+    ]
+  },
+  {
+    "SkinType": "s",
+    "Sprites": [
+      {
+        "Filename": "skin.png",
+        "PixelsPerUnit": 30.0,
+        "SpriteStart": {
+          "x": 93.0,
+          "y": 0.0
+        },
+        "SpriteSize": {
+          "x": 30.0,
+          "y": 30.0
+        }
+      }
+    ]
+  },
+  {
+    "SkinType": "i",
+    "Sprites": [
+      {
+        "Filename": "skin.png",
+        "PixelsPerUnit": 30.0,
+        "SpriteStart": {
+          "x": 124.0,
+          "y": 0.0
+        },
+        "SpriteSize": {
+          "x": 30.0,
+          "y": 30.0
+        }
+      }
+    ]
+  },
+  {
+    "SkinType": "j",
+    "Sprites": [
+      {
+        "Filename": "skin.png",
+        "PixelsPerUnit": 30.0,
+        "SpriteStart": {
+          "x": 155.0,
+          "y": 0.0
+        },
+        "SpriteSize": {
+          "x": 30.0,
+          "y": 30.0
+        }
+      }
+    ]
+  },
+  {
+    "SkinType": "t",
+    "Sprites": [
+      {
+        "Filename": "skin.png",
+        "PixelsPerUnit": 30.0,
+        "SpriteStart": {
+          "x": 186.0,
+          "y": 0.0
+        },
+        "SpriteSize": {
+          "x": 30.0,
+          "y": 30.0
+        }
+      }
+    ]
+  },
+  {
+    "SkinType": "ghost",
+    "Sprites": [
+      {
+        "Filename": "skin.png",
+        "PixelsPerUnit": 30.0,
+        "SpriteStart": {
+          "x": 217.0,
+          "y": 0.0
+        },
+        "SpriteSize": {
+          "x": 30.0,
+          "y": 30.0
+        }
+      }
+    ]
+  },
+  {
+    "SkinType": "usedHold",
+    "Sprites": [
+      {
+        "Filename": "skin.png",
+        "PixelsPerUnit": 30.0,
+        "SpriteStart": {
+          "x": 248.0,
+          "y": 0.0
+        },
+        "SpriteSize": {
+          "x": 30.0,
+          "y": 30.0
+        }
+      }
+    ]
+  },
+  {
+    "SkinType": "warning",
+    "Sprites": [
+      {
+        "Filename": "skin.png",
+        "PixelsPerUnit": 30.0,
+        "SpriteStart": {
+          "x": 341.0,
+          "y": 0.0
+        },
+        "SpriteSize": {
+          "x": 30.0,
+          "y": 30.0
+        }
+      }
+    ]
+  }
+]

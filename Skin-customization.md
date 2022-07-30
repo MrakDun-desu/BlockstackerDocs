@@ -126,7 +126,15 @@ Corner flags (16 and higher) should be set only if the edge is only the corner, 
 
 ## Templates for used skin formats
 
-// TODO
+To make creating skins simpler, there are templates available for known skin formats. Here is the list of available templates:
+
+- [Old TETR.IO](/Example%20files/oldTetrio.json)
+- [New TETR.IO](/Example%20files/newTetrio.json)
+- [New TETR.IO connected](Example%20files/newTetrioConnected.json)
+
+Jstris is not included because it supports dynamically sized skins, which Blockstacker-desu does not. 
+
+New TETR.IO and new TETR.IO connected are at the base size - 46 pixels per block.
 
 ## Supported file types
 
