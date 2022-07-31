@@ -5,8 +5,8 @@ Sound customization is divided into 2 parts - music and sound effects. You can c
 ## Creating a custom sound pack
 
 1. Think up your own sound pack name and create a directory named after it in the `soundPacks` directory.
-2. If you want to customize music, put your music files into the `music` directory within your soundpack directory. Music can also be customized further by [creating a `musicConfig.json` file](#musicConfig.json-file) in the `music` directory.
-3. If you want to customize sound effects, put your sound effects files into the `soundEffects` directory within your soundpack directory. Sound effects can also be customized further by [creating a `soundEffects.lua` script](#soundEffects.lua-script) in the `soundEffects` directory. 
+2. If you want to customize music, put your music files into the `music` directory within your soundpack directory. Music can also be customized further by [creating a `musicConfig.json` file](#musicConfigjson-file) in the `music` directory.
+3. If you want to customize sound effects, put your sound effects files into the `soundEffects` directory within your soundpack directory. Sound effects can also be customized further by [creating a `soundEffects.lua` script](#soundEffectslua-script) in the `soundEffects` directory. 
 4. Pick your sound pack in the game customization settings and wait for it to load.
 
 ## Loading a premade sound pack
