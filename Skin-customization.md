@@ -4,7 +4,7 @@ To use a custom skin, you'll need to create a directory `styleCustomization/skin
 
 1. Think up your own skin name and create a directory named after it in the `skins` directory.
 2. Create the skin files.
-3. Create a `skinConfig.json` file and specify how your skins should work. Explained [here](#skinConfig.json-file).
+3. Create a `skinConfig.json` file and specify how your skins should work. Explained [here](#skinConfigjson-file).
 4. Put your skin files in your skin directory.
 5. Pick your skin in the game customization settings and wait for it to load.
 
