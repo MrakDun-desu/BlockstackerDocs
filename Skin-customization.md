@@ -69,6 +69,8 @@ Type of the block that this will be applied to. Currently valid values are:
 - "ghost" - ghost piece blocks
 - "warning" - warning blocks that signal the spawning position of next piece
 - "grid" - blocks of the board grid
+- "garbage" - generated garbage blocks
+
 ### `BlockNumbers` 
 Array of numbers that this skin will be applied to. Works for every skin except for the grid, where all blocks are treated as number 0. Is set to `[0, 1, 2, 3]` by default (all blocks in piece). Accepts arrays of unsigned integers.
 ### `Layer` 
@@ -86,7 +88,7 @@ If this skin is animated, this is the amount of frames per second that will it w
 Array of sprite records that are used in this skin. If the skin is not animated, should be array with one value. If the skin is connected, should be left empty. This field is an array of objects and each object has these fields:
 
 #### `Filename`
-Path to the file in which this sprite is present in. If `LoadFromUrl` is set to false, this is treated as relative path in skin folder. If `LoadFromUrl` is set to true, this is treated as a URL and will try to load sprite from the internet. If the file is not found, it is treated as if the sprite record did not exist. Is set to false by default. Accepts string values.
+Path to the file in which this sprite is present in. If `LoadFromUrl` is set to false, this is treated as relative path in skin folder. If `LoadFromUrl` is set to true, this is treated as a URL and will try to load sprite from the internet. If the file is not found, it is treated as if the sprite record did not exist. Is set to empty string by default. Accepts string values.
 
 #### `LoadFromUrl`
 Specifies if the skin should be loaded from URL or from relative path in current skin folder. Accepts boolean values.
