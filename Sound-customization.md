@@ -6,7 +6,7 @@ Sound customization is divided into 2 parts - music and sound effects. You can c
 
 1. Think up your own sound pack name and create a directory named after it in the `soundPacks` directory.
 2. If you want to customize music, put your music files into the `music` directory within your soundpack directory. Music can also be customized further by [creating a `musicConfig.json` file](#musicConfigjson-file) in the `music` directory.
-3. If you want to customize sound effects, put your sound effects files into the `soundEffects` directory within your soundpack directory. Sound effects can also be customized further by [creating a `soundEffects.lua` script](#soundEffectslua-script) in the `soundEffects` directory. 
+3. If you want to customize sound effects, put your sound effects files into the `soundEffects` directory within your soundpack directory. You can read which sound effects you can customize [here][#available-sound-effects]. Sound effects can also be customized further by [creating a `soundEffects.lua` script](#soundEffectslua-script) in the `soundEffects` directory. 
 4. Pick your sound pack in the game customization settings and wait for it to load.
 
 ## Loading a premade sound pack
@@ -80,7 +80,7 @@ By default, game plays these sound effects:
 | t                    | When the "Hear next pieces" setting is set to true and the next piece is t     |
 | countdown{number}    | When the countdown ticks with number + 1 ticks remainig                        |
 | combo_{number}       | When one to three lines are cleared without a spin, with combo equal to number |
-| combo_{number}_power | When either spin or a quad is cleared with a combo equal to number             |
+| combo_{number}\_power| When either spin or a quad is cleared with a combo equal to number            |
 
 In default sound effects, game has 5 countdown clips. When countdown larger than 5 ticks, the sound effect countdown5 is played.
 
@@ -109,7 +109,13 @@ Here is a list of available events:
 
 In function that handles each of these events, you can use the message to pick an audio clip that shoud play. Each audio clip is identified by its name, a simple string. You can use any of the default clips and all clips that you have in your sound pack `soundEffects` directory. Note that you need to identify the clip without the extension.
 
-You can play multiple sounds at once by returning more than one string value. For example, if you have audio clips that are stored in files `single.mp3`, `double.ogg`, `triple.wav`, you would choose one of them by returning a string `"single"`, `"double"` or `"triple"`. If you had a spin sound in `spin.mp3` that you'd like to play as well, you would return `"spin", "double"`.
+You can make the game play sounds by two means - either returning a string name of the clip in your handler function, or by calling a function with the string name. You have 2 available functions - `Play` and `PlayAsAnnouncer`. `Play` will just play the clip and not cancel any other clips that have been played before. `PlayAsAnnouncer` will stop the previous clip that you played using this function and start the new clip. This is useful if you want to have an annoucer (hence the name of the function). If the voicelines were are too long and go over each other, you can cancel the previous one using this method.
+
+You can play multiple sounds at once by returning more than one string value, or by calling `Play` multiple times in your handler function. For example, if you have audio clips that are stored in files `single.mp3`, `double.ogg`, `triple.wav`, you would choose one of them by returning a string `"single"`, `"double"` or `"triple"`. If you had a spin sound in `spin.mp3` that you'd like to play as well, you would return `"spin", "double"`. Alternatively, you can just call the `Play` function, like so:
+```lua
+Play("spin")
+Play("double")
+```
 
 If you attempt to return a name of a clip that is not loaded, the game will show you a warning that you attempted to play a non-existent sound. 
 
