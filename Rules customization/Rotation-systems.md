@@ -51,7 +51,7 @@ At the end of this file, you can find a [spin reference](#blockstacker-spin-refe
 
 Next, if you have spins for that particular piece type turned on, the game will decide if this spin could count as a "spin clear". This is a special type of clear that (in most scoring systems) awards more points. In official **Tetris** games, this only applies to purple t pieces. In Blockstacker, you can achieve a spin with any piece.
 
-### Detectin spins
+### Detecting spins
 
 Every piece has designated "spin detectors" and "full spin detectors". Also a minimum of "spin detectors" for the placement to count as spin. For it to count as full spin, all "full spin detectors" must be satisfied. 
 
