@@ -91,6 +91,7 @@ In SRS, these special kicks are:
 Spin detector count: 5
 
 Image reference:
+
 ![I reference](/Images/i_reference.png)
 
 ### J piece
@@ -98,6 +99,7 @@ Image reference:
 Spin detector count: 3
 
 Image reference:
+
 ![J reference](/Images/j_reference.png)
 
 ### L piece
@@ -105,6 +107,7 @@ Image reference:
 Spin detector count: 3
 
 Image reference:
+
 ![L reference](/Images/l_reference.png)
 
 ### O piece
@@ -112,6 +115,7 @@ Image reference:
 Spin detector count: 7
 
 Image reference:
+
 ![O reference](/Images/o_reference.png)
 
 ### S piece
@@ -119,6 +123,7 @@ Image reference:
 Spin detector count: 3
 
 Image reference:
+
 ![S reference](/Images/s_reference.png)
 
 ### T piece
@@ -126,6 +131,7 @@ Image reference:
 Spin detector count: 3
 
 Image reference:
+
 ![T reference](/Images/t_reference.png)
 
 ### Z piece
@@ -133,4 +139,5 @@ Image reference:
 Spin detector count: 3
 
 Image reference:
+
 ![Z reference](/Images/z_reference.png)
