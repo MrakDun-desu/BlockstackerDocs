@@ -1,5 +1,10 @@
 To use a custom skin, you'll need to create a directory `styleCustomization/skins` in the application persistent data path. This directory can also be created and opened from the in-game customization settings.
 
+## Loading a premade skin
+
+1. Copy the skin source directory into the `skins` directory.
+2. Pick your skin in the game customization settings and wait for it to load.
+
 ## Creating a custom skin
 
 1. Think up your own skin name and create a directory named after it in the `skins` directory.
@@ -7,11 +12,6 @@ To use a custom skin, you'll need to create a directory `styleCustomization/skin
 3. Create a `skinConfig.json` file and specify how your skins should work. Explained [here](#skinConfigjson-file).
 4. Put your skin files in your skin directory.
 5. Pick your skin in the game customization settings and wait for it to load.
-
-## Loading a premade skin
-
-1. Copy the skin source directory into the `skins` directory.
-2. Pick your skin in the game customization settings and wait for it to load.
 
 ## `skinConfig.json` file
 
@@ -134,7 +134,7 @@ To make creating skins simpler, there are templates available for known skin for
 - [New TETR.IO](/Example%20files/newTetrio.json)
 - [New TETR.IO connected](Example%20files/newTetrioConnected.json)
 
-Jstris is not included because it supports dynamically sized skins, which Blockstacker-desu does not. 
+Jstris is not included because it supports dynamically sized skins, which Blockstacker does not. 
 
 New TETR.IO and new TETR.IO connected are at the base size - 46 pixels per block.
 

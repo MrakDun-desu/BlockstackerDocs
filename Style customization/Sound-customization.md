@@ -2,17 +2,17 @@ To use a custom sound pack, you'll need to create a directory `styleCustomizatio
 
 Sound customization is divided into 2 parts - music and sound effects. You can customize them separately.
 
+## Loading a premade sound pack
+
+1. Copy the sound pack source directory into the `soundPacks` directory.
+2. Pick your sound pack in the game customization settings and wait for it to load.
+
 ## Creating a custom sound pack
 
 1. Think up your own sound pack name and create a directory named after it in the `soundPacks` directory.
 2. If you want to customize music, put your music files into the `music` directory within your soundpack directory. Music can also be customized further by [creating a `musicConfig.json` file](#musicConfigjson-file) in the `music` directory.
 3. If you want to customize sound effects, put your sound effects files into the `soundEffects` directory within your soundpack directory. You can read which sound effects you can customize [here](#available-sound-effects). Sound effects can also be customized further by [creating a `soundEffects.lua` script](#soundEffectslua-script) in the `soundEffects` directory. 
 4. Pick your sound pack in the game customization settings and wait for it to load.
-
-## Loading a premade sound pack
-
-1. Copy the sound pack source directory into the `soundPacks` directory.
-2. Pick your sound pack in the game customization settings and wait for it to load.
 
 ## `musicConfig.json` file
 
@@ -55,32 +55,32 @@ If you do not specify one of these values, the default will be used. If you spec
 
 By default, game plays these sound effects:
 
-| Clip name            | When the clip is played                                                        |
-| :------------------- | :----------------------------------------------------------------------------- |
-| spin                 | When a spin happens                                                            |
-| rotate               | When normal rotation (non-spin) happens                                        |
-| move                 | When piece is moved left or right                                              |
-| softdrop             | When piece is moved down with softdrop                                         |
-| hold                 | When piece is successfully held                                                |
-| allclear             | When all-clear occurs                                                          |
-| floor                | When piece is dropped                                                          |
-| clearspin            | When a spin is cleared                                                         |
-| combobreak           | When a combo is broken                                                         |
-| btb_break            | When back-to-back is broken                                                    |
-| clearline            | When one to three lines are cleared without a spin and without combo           |
-| clearquad            | When 4 lines are cleared                                                       |
-| finish               | When the game successfully ends                                                |
-| death                | When player tops out (loses)                                                   |
-| i                    | When the "Hear next pieces" setting is set to true and the next piece is i     |
-| j                    | When the "Hear next pieces" setting is set to true and the next piece is j     |
-| l                    | When the "Hear next pieces" setting is set to true and the next piece is l     |
-| o                    | When the "Hear next pieces" setting is set to true and the next piece is o     |
-| s                    | When the "Hear next pieces" setting is set to true and the next piece is s     |
-| z                    | When the "Hear next pieces" setting is set to true and the next piece is z     |
-| t                    | When the "Hear next pieces" setting is set to true and the next piece is t     |
-| countdown{number}    | When the countdown ticks with number + 1 ticks remainig                        |
-| combo_{number}       | When one to three lines are cleared without a spin, with combo equal to number |
-| combo_{number}\_power| When either spin or a quad is cleared with a combo equal to number            |
+| Clip name             | When the clip is played                                                        |
+| :-------------------- | :----------------------------------------------------------------------------- |
+| spin                  | When a spin happens                                                            |
+| rotate                | When normal rotation (non-spin) happens                                        |
+| move                  | When piece is moved left or right                                              |
+| softdrop              | When piece is moved down with softdrop                                         |
+| hold                  | When piece is successfully held                                                |
+| allclear              | When all-clear occurs                                                          |
+| floor                 | When piece is dropped                                                          |
+| clearspin             | When a spin is cleared                                                         |
+| combobreak            | When a combo is broken                                                         |
+| btb_break             | When back-to-back is broken                                                    |
+| clearline             | When one to three lines are cleared without a spin and without combo           |
+| clearquad             | When 4 lines are cleared                                                       |
+| finish                | When the game successfully ends                                                |
+| death                 | When player tops out (loses)                                                   |
+| i                     | When the "Hear next pieces" setting is set to true and the next piece is i     |
+| j                     | When the "Hear next pieces" setting is set to true and the next piece is j     |
+| l                     | When the "Hear next pieces" setting is set to true and the next piece is l     |
+| o                     | When the "Hear next pieces" setting is set to true and the next piece is o     |
+| s                     | When the "Hear next pieces" setting is set to true and the next piece is s     |
+| z                     | When the "Hear next pieces" setting is set to true and the next piece is z     |
+| t                     | When the "Hear next pieces" setting is set to true and the next piece is t     |
+| countdown{number}     | When the countdown ticks with number + 1 ticks remainig                        |
+| combo_{number}        | When one to three lines are cleared without a spin, with combo equal to number |
+| combo_{number}\_power | When either spin or a quad is cleared with a combo equal to number             |
 
 In default sound effects, game has 5 countdown clips. When countdown larger than 5 ticks, the sound effect countdown5 is played.
 
@@ -125,7 +125,7 @@ If you want to write your own sound effects script, you can start with [this exa
 
 ## Accepted audio formats
 
-As BlockStacker-desu uses Unity to import audio, it supports the same formats. 
+As BlockStacker uses Unity to import audio, it supports the same formats. 
 
 - mp3
 - ogg

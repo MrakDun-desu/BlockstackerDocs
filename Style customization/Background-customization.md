@@ -1,15 +1,15 @@
 To use custom backgrounds, you'll need to create a directory `styleCustomization/backgroundPacks` in the application persistent data path. This directory can also be created and opened from the in-game customization settings.
 
+## Loading a premade background pack
+
+1. Copy the background pack source directory into the `backgroundPacks` directory. Be sure to rename the background pack if you have one with the same name already.
+2. Pick your background pack in the game customization settings and wait for it to load.
+
 ## Creating a custom background pack
 
 1. Think up your own background pack name and create a directory named after it in the `backgroundPacks` directory.
 2. Put your background files in your background pack directory and name them accordingly. These are [currently supported changeable backgrounds](#background-names).
 3. Pick your background pack in the game customization settings and wait for it to load.
-
-## Loading a premade background pack
-
-1. Copy the background pack source directory into the `backgroundPacks` directory. Be sure to rename the background pack if you have one with the same name already.
-2. Pick your background pack in the game customization settings and wait for it to load.
 
 ## Background names
 You can customize your backgrounds separately for each scene. Create a directory for scene you want to customize (`default`, if you want this background used in all scenes) and name it according to this table. When the scene is loaded, background will be randomly picked from one of the files in the according directory. Background names **are case sensitive**.
@@ -43,4 +43,4 @@ Video backgrounds:
 
 During testing, some Unity warnings with videos were encountered, so be aware that game might not behave correctly if using a video background.
 
-Other video formats should be supported by Unity, but .mp4 is the only tested format so far. BlockStacker-desu uses Unity's video player to render video backgrounds, so you can look up your options <a href="https://docs.unity3d.com/Manual/VideoSources-FileCompatibility.html" target="_blank">here</a>.
+Other video formats should be supported by Unity, but .mp4 is the only tested format so far. BlockStacker uses Unity's video player to render video backgrounds, so you can look up your options <a href="https://docs.unity3d.com/Manual/VideoSources-FileCompatibility.html" target="_blank">here</a>.

@@ -1,4 +1,4 @@
-In BlockStacker-desu, you are able to write your own scripts to create sound 
+In BlockStacker, you are able to write your own scripts to create sound 
 effect patterns. Here is the list of messages that you can recieve 
 in your scripts. In different types of scripts, you can register different 
 types of events.
@@ -8,7 +8,7 @@ Lua object.
 
 ## Subscribing to the events
 
-When you write a script for BlockStacker-desu that needs to access events, 
+When you write a script for BlockStacker that needs to access events, 
 you need to define which functions in your script will handle them. 
 This is currently done by returning a table that maps each event name to 
 a handler function. Mapping functions could then look like this:
@@ -28,7 +28,7 @@ return {
 }
 ```
 
-When loading the file, BlockStacker-desu will check if the contents are a valid 
+When loading the file, BlockStacker will check if the contents are a valid 
 Lua script and show you a warning if it isn't.
 
 Here are the events, ordered in alphabetical order:
