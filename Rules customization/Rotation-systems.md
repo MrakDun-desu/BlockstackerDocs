@@ -51,7 +51,7 @@ At the end of this file, you can find a [spin reference](#blockstacker-spin-refe
 
 Next, if you have spins for that particular piece type turned on, the game will decide if this spin could count as a "spin clear". This is a special type of clear that (in most scoring systems) awards more points. In official **Tetris** games, this only applies to purple t pieces. In Blockstacker, you can achieve a spin with any piece.
 
-### Detectin spins
+### Detecting spins
 
 Every piece has designated "spin detectors" and "full spin detectors". Also a minimum of "spin detectors" for the placement to count as spin. For it to count as full spin, all "full spin detectors" must be satisfied. 
 
@@ -91,6 +91,7 @@ In SRS, these special kicks are:
 Spin detector count: 5
 
 Image reference:
+
 ![I reference](/Images/i_reference.png)
 
 ### J piece
@@ -98,6 +99,7 @@ Image reference:
 Spin detector count: 3
 
 Image reference:
+
 ![J reference](/Images/j_reference.png)
 
 ### L piece
@@ -105,6 +107,7 @@ Image reference:
 Spin detector count: 3
 
 Image reference:
+
 ![L reference](/Images/l_reference.png)
 
 ### O piece
@@ -112,6 +115,7 @@ Image reference:
 Spin detector count: 7
 
 Image reference:
+
 ![O reference](/Images/o_reference.png)
 
 ### S piece
@@ -119,6 +123,7 @@ Image reference:
 Spin detector count: 3
 
 Image reference:
+
 ![S reference](/Images/s_reference.png)
 
 ### T piece
@@ -126,6 +131,7 @@ Image reference:
 Spin detector count: 3
 
 Image reference:
+
 ![T reference](/Images/t_reference.png)
 
 ### Z piece
@@ -133,4 +139,5 @@ Image reference:
 Spin detector count: 3
 
 Image reference:
+
 ![Z reference](/Images/z_reference.png)
