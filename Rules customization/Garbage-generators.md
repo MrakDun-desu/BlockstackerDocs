@@ -25,21 +25,23 @@ The garbage generator script needs to implement 2 functions - one for resetting 
 ### Predefined values in your script
 
 Before activating your script, Blockstacker will set a global variable `Board`, which will hold the information about the board you're generating garbage for. On this `Board`, you have access to some information that you need to generate garbage.
+Board is your interface to the board you're currently managing. It's a reference to the in-game C# object which has multiple fields and methods that you can use.
 
-Most importantly, there are `Board.Width` and `Board.Height`. These are actual dimensions of the board. You will need to use `Board.Width` to decide how wide should the layers you generate be.
+You access fields with the `.` notation.
 
-As an additional size variable, there's `Board.GarbageHeight`. It states how many lines of garbage currently are on the board.
+Fields available in Blockstacker 0.3:
+- `Board.Width` - width of the board in blocks
+- `Board.Height` - height of the board in blocks
+- `Board.LethalHeight` - height that has been set in the game settings to be lethal. Is relevant only for certain topout conditions by itself.
+- `Board.GarbageHeight` - height of garbage that is currently on the board.
+- `Board.Slots` - list of lists of boolean values. Each inner list is one line on the board. Each boolean value is true if that slot is filled and false if it is not.
 
-You also have access to `Board.Slots`. This is the slots of the board, but only up to the height the board had been filled. So if you access `Board.Slots.Count`, it will give you the y position of highest block that's currently on board. Each of values in `Board.Slots` then has a count of exactly the board width. Every value in those lists is a bool, `true` if the slot is occupied by a block, `false` if not.
+Note: `Board.Slots` dynamic, so if there are no blocks on the board, the `Slots` field will contain no lines.
+Note: Indexing in Lua starts from 1, but when accessing objects which are taken from C#, this isn't the case. So instead of indexing `Board.Slots` from `1` to `Slots.Count`, you need to index from `0` to `Slots.Count - 1`.
 
-If you want to check which is the currently highest column on the board, you access the last line, which can be done by `Board.Slots[Board.Slots.Count - 1]` and check which of those values are true. Of course, if slots are empty, this will give you an error (slots always start up empty because there is nothing on the board in the start).
-
-**Note: Indexing in Lua starts from 1, but when accessing objects which are taken from C# context, this isn't the case. So instead of indexing `Board.Slots` from 1 to `Slots.Count`, you need to index from 0 to `Slots.Count - 1`.**
-
-Lastly and most importantly, there is a method `AddGarbageLayer()` on the `Board`. You can add garbage to the board by calling this method. Method takes two parameters:
-
-- table of tables of bools. Inner tables should all have length of `Board.Width`. Each inner table is one line of garbage. Every bool inside the inner tables represents if a block should appear on that position or not.
-- boolean value which tells the board whether to connect this layer to previous layer. This is important for connected skins, but otherwise has no meaning. If you choose to connect layers, they will appear connected when using a connected skin even though you didn't generate them at the same time.
+You access functions with the `:` notation.
+Functions available in Blockstacker 0.3:
+- `Board:AddGarbageLayer(slotsTable, addToLast)` - `slotsTable` is a table of tables of boolean values. Each table represents one line of garbage and should be filled with boolean values, true for garbage block and false for no garbage blocks. `addToLast` is a boolean that decides if this garbage layer should be counted as a part of last added layer. Important for connected skins. Works the same as function in [Garbage generators](Garbage-generators.md).
 
 ### Generator function
 

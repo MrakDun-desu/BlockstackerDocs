@@ -17,4 +17,4 @@ This game is heavily oriented towards enabling the players to customize their ex
   - [Garbage generators](/Rules%20customization/Garbage-generators.md)
   - [Rotation systems](/Rules%20customization/Rotation-systems.md)
   - [Game managers](/Rules%20customization/Game-managers.md)
-- [Stat counting](todo)
+- [Stat counting](/Stat-counting.md)
