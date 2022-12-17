@@ -27,7 +27,7 @@ Starting state is an enum which has 4 possible values:
 - 2 - rotated 180 degrees
 - 3 - rotated 90 degrees clockwise
 
-This will change how the piece will spawn, but not how it will appear in queue (as of Blockstacker version 0.3, might change in the future).
+This will change how the piece will spawn, but not how it will appear in queue (as of UStacker version 0.3, might change in the future).
 
 Full spin kicks are both vectors with x and y fields for the kick values.
 
@@ -41,15 +41,15 @@ Usually, default table works for every piece with the exception of i piece. That
 
 You can find an example of a rotation system [here](../Example%20files/superRotationSystem.json). This is identical to the SRS system that the game uses by default.
 
-### How spins work in blockstacker
+### How spins work in UStacker
 
 Every time you rotate a piece in game, the piece will try all the kicks in its kick table, depending to start state and potential ends state. It will use the first kick that works without overlapping the piece with other blocks on board or moving the piece beyond the board's borders.
 
 In the default systems, the first kick is always 0,0. This means that the piece will try to rotate around its pivot point and not move at all. If this is not successful, other kicks will be tried next.
 
-At the end of this file, you can find a [spin reference](#blockstacker-spin-reference). Every piece pivot is documented there.
+At the end of this file, you can find a [spin reference](#UStacker-spin-reference). Every piece pivot is documented there.
 
-Next, if you have spins for that particular piece type turned on, the game will decide if this spin could count as a "spin clear". This is a special type of clear that (in most scoring systems) awards more points. In official **Tetris** games, this only applies to purple t pieces. In Blockstacker, you can achieve a spin with any piece.
+Next, if you have spins for that particular piece type turned on, the game will decide if this spin could count as a "spin clear". This is a special type of clear that (in most scoring systems) awards more points. In official **Tetris** games, this only applies to purple t pieces. In UStacker, you can achieve a spin with any piece.
 
 ### Detecting spins
 
@@ -57,7 +57,7 @@ Every piece has designated "spin detectors" and "full spin detectors". Also a mi
 
 Spin detector is satisfied if there is a block on board where that detector is, or if board ends there. Every full spin detector is also a normal spin detector.
 
-At the end of this file, you can find a [spin reference](#blockstacker-spin-reference), but there is one reference here for simplicity.
+At the end of this file, you can find a [spin reference](#UStacker-spin-reference), but there is one reference here for simplicity.
 
 ![T reference](/Images/t_reference.png)
 
@@ -84,7 +84,7 @@ In SRS, these special kicks are:
 ]
 ```
 
-## Blockstacker spin reference
+## UStacker spin reference
 
 ### I piece
 

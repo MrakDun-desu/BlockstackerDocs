@@ -1,8 +1,8 @@
-# Welcome to BlockStacker docs!
+# Welcome to UStacker docs!
 
-BlockStacker (a current working name) is a stacking game, heavily inspired by **Tetris**. Other influences also come from **Tetr.io**, **Jstris** and **osu!** games.
+UStacker is a stacking game, heavily inspired by **Tetris**. Other influences also come from **Tetr.io**, **Jstris** and **osu!** games.
 
-This game is heavily oriented towards enabling the players to customize their experience - game visuals, sounds and even stats and rules! So have a good read and make BlockStacker into the game you would like the most.
+This game is heavily oriented towards enabling the players to customize their experience - game visuals, sounds and even stats and rules! So have a good read and make UStacker into the game *you* would like the most.
 
 ## Index
 

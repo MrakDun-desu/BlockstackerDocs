@@ -1,12 +1,12 @@
 To use a custom game manager, you'll need to create a directory `rulesCustomization/gameManagers` in the application persistent data path.
 
-Game manager is a script that takes care of levelling, score counting and other mechanics that are specific to different game types. Blockstacker natively supports 3 different game managers:
+Game manager is a script that takes care of levelling, score counting and other mechanics that are specific to different game types. UStacker natively supports 3 different game managers:
 
 - modern system with levelling
 - modern system without levelling (one static level)
 - classic system with levelling
 
-Game managers can change various aspects of the game during the gameplay. As of Blockstacker version 0.3, game manager can set score, gravity and lock delay as with most other games. With future versions, more options will be added, like changing up randomization to different piece types, making board blocks invisible, modifying the board state and more.
+Game managers can change various aspects of the game during the gameplay. As of UStacker version 0.3, game manager can set score, gravity and lock delay as with most other games. With future versions, more options will be added, like changing up randomization to different piece types, making board blocks invisible, modifying the board state and more.
 
 **Important note: All custom game manager files must have the extension .lua**
 
@@ -26,7 +26,7 @@ Game managers can change various aspects of the game during the gameplay. As of 
 
 ## How to write a game manager script
 
-Game manager script has the most options out of any Blockstacker scripts. You can subscribe to any game messages, manage state of the game, make your own score counting system and more.
+Game manager script has the most options out of any UStacker scripts. You can subscribe to any game messages, manage state of the game, make your own score counting system and more.
 
 ### Predefined values
 
@@ -46,7 +46,7 @@ Board is your interface to the board you're currently managing. It's a reference
 
 You access fields with the `.` notation.
 
-Fields available in Blockstacker 0.3:
+Fields available in UStacker 0.3:
 - `Board.Width` - width of the board in blocks
 - `Board.Height` - height of the board in blocks
 - `Board.LethalHeight` - height that has been set in the game settings to be lethal. Is relevant only for certain topout conditions by itself.
@@ -57,7 +57,7 @@ Note: `Board.Slots` dynamic, so if there are no blocks on the board, the `Slots`
 Note: Indexing in Lua starts from 1, but when accessing objects which are taken from C#, this isn't the case. So instead of indexing `Board.Slots` from `1` to `Slots.Count`, you need to index from `0` to `Slots.Count - 1`.
 
 You access functions with the `:` notation.
-Functions available in Blockstacker 0.3:
+Functions available in UStacker 0.3:
 - `Board:AddGarbageLayer(slotsTable, addToLast)` - `slotsTable` is a table of tables of boolean values. Each table represents one line of garbage and should be filled with boolean values, true for garbage block and false for no garbage blocks. `addToLast` is a boolean that decides if this garbage layer should be counted as a part of last added layer. Important for connected skins. Works the same as function in [Garbage generators](Garbage-generators.md).
 - `Board:ClearAllBlocks()` - clears all blocks from the board.
 
@@ -65,7 +65,7 @@ Functions available in Blockstacker 0.3:
 
 Other than functions on predefined values, you an also call functions that have been registered before running your script.
 
-Functions available in Blockstacker 0.3:
+Functions available in UStacker 0.3:
 - `EndGame(time)` - will end game successfully. For `time` parameter, you should use time that you get from one of events that you have registered. For more about registering events, look [here](#registering-events).
 - `LoseGame(time)` - similar to `EndGame`, but will end game as a failure and a replay will not be saved. Note: this is exactly the same as `EndGame` if in game objective settings, Topping out is okay is set to true.
 - `SetScore(score, time)` - will set the game score at a specified time. `score` can be any number, but will be converted to a 64bit signed integer after calling. For `time`, you should use time that you get from one of the events that you have registered.
@@ -78,7 +78,7 @@ Functions available in Blockstacker 0.3:
 
 ### Registering events
 
-Registering events in a game manager works the universal Blockstacker way. You can read about this way [here](../Game-events.md#subscribing-to-the-events).
+Registering events in a game manager works the universal UStacker way. You can read about this way [here](../Game-events.md#subscribing-to-the-events).
 
 You can subscribe to every game event that is listed on the event page.
 

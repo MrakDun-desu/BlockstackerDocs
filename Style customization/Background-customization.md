@@ -43,4 +43,4 @@ Video backgrounds:
 
 During testing, some Unity warnings with videos were encountered, so be aware that game might not behave correctly if using a video background.
 
-Other video formats should be supported by Unity, but .mp4 is the only tested format so far. BlockStacker uses Unity's video player to render video backgrounds, so you can look up your options <a href="https://docs.unity3d.com/Manual/VideoSources-FileCompatibility.html" target="_blank">here</a>.
+Other video formats should be supported by Unity, but .mp4 is the only tested format so far. UStacker uses Unity's video player to render video backgrounds, so you can look up your options <a href="https://docs.unity3d.com/Manual/VideoSources-FileCompatibility.html" target="_blank">here</a>.

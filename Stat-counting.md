@@ -1,6 +1,6 @@
 Stat counting is an essential part of any game, so the players knows what they're doing right and wrong, what they could make better and when precisely are they doing what.
 
-In Blockstacker, there is a variety of preprogrammed stat counters and users can also write their own stat counters, based on receiving messages about game events.
+In UStacker, there is a variety of preprogrammed stat counters and users can also write their own stat counters, based on receiving messages about game events.
 
 ## Using default stat counters
 
@@ -8,7 +8,7 @@ In game stat counting menu, you can see stat counting groups. Every group can be
 
 Some stat counters are only relevant to certain game types, so this is why there is a group for every game type. You can make any number of your own groups and then pick them in the game settings menu.
 
-After you have picked a group and started the game, you can see the stat counters on their positions. Stat counter positions are relative to the 0,0 coordinate of the board and are sized by blocks. They are also children of the board - this means that if you move the board or resize it, they will retain their relative position. In future versions of Blockstacker, this will be optional and you'll be able to have some stat counters that stick to the screen.
+After you have picked a group and started the game, you can see the stat counters on their positions. Stat counter positions are relative to the 0,0 coordinate of the board and are sized by blocks. They are also children of the board - this means that if you move the board or resize it, they will retain their relative position. In future versions of UStacker, this will be optional and you'll be able to have some stat counters that stick to the screen.
 
 During gameplay, you can reposition and resize your stat counters. These alterations will be saved into the game settings when you quit your game and will be used next time you play.
 
@@ -41,7 +41,7 @@ Each stat counter is a script that displays one or more stats. In the future, st
 3. Add a stat counter to it and choose `custom` as the stat counter type.
 4. After selecting `custom`, two new fields should appear - stat counter name and stat counter filename. For the name, just choose whatever you think is right. For filename, you should type exactly the filename that you added into the `statCounters` directory, including the extension. In the future, you'll be able to pick from a dropdown.
 5. After choosing a game to play, choose your new group as stat counter group for that game.
-6. You should now be able to see the stat counter working. If there are any errors during execution, Blockstacker will display an alert and shut down the stat counter.
+6. You should now be able to see the stat counter working. If there are any errors during execution, UStacker will display an alert and shut down the stat counter.
 
 ### Creating a custom stat counter
 
@@ -52,11 +52,11 @@ Each stat counter is a script that displays one or more stats. In the future, st
 5. Add a stat counter to it and choose `custom` as the stat counter type.
 6. After selecting `custom`, two new fields should appear - stat counter name and stat counter filename. For the name, just choose whatever you think is right. For filename, you should type exactly the filename that you added into the `statCounters` directory, including the extension. In the future, you'll be able to pick from a dropdown.
 7. After choosing a game to play, choose your new group as stat counter group for that game.
-8. You should now be able to see the stat counter working. If there are any errors during execution, Blockstacker will display an alert and shut down the stat counter.
+8. You should now be able to see the stat counter working. If there are any errors during execution, UStacker will display an alert and shut down the stat counter.
 
 ### How to write a stat counter script
 
-Stat counter script decides what events to accept and what value to display when they arrive. Registering events works in the universal Blockstacker way. You can read about this way [here](../BlockstackerDocs/Game-events.md#subscribing-to-the-events). You can subscribe to every game event that is listed on the event page.
+Stat counter script decides what events to accept and what value to display when they arrive. Registering events works in the universal UStacker way. You can read about this way [here](../UStackerDocs/Game-events.md#subscribing-to-the-events). You can subscribe to every game event that is listed on the event page.
 
 For stat counters, there is one more available event: `CounterUpdated` event. This event sends no message and its only purpose is to enable stat counters that are updated regularly, not only when game events are triggered. You can subscribe to this event as you would subscribe to any other event in the returned table.
 
@@ -74,7 +74,7 @@ Stat counter script has 3 predefined values:
 
 `StatUtility` is an object that you can use to call some useful functions that aren't available in Lua by default. Functions are all accessed by the `:` notation.
 
-These are the available utility functions in Blockstacker 0.3:
+These are the available utility functions in UStacker 0.3:
 - `GetCurrentTime()` - will return the current time since the start of the game in seconds as a double.
 - `FormatTime(seconds)` - will return a nicely formatted string of the time you pass in.
 - `GetFormattedTime()` - will return a nicely formatted string of the current time. Calling this is equal to calling `StatUtility:FormatTime(StatUtility:GetCurrentTime())`.
@@ -86,7 +86,7 @@ These are the available utility functions in Blockstacker 0.3:
 
 All the stats are accessed by the `.` notation.
 
-Stats that are available in Blockstacker 0.3:
+Stats that are available in UStacker 0.3:
 - Score - 64bit integer
 - Level - string
 - LinesCleared - unsigned 32bit integer
@@ -122,7 +122,7 @@ Board is your interface to the board that you're currently counting stats for. I
 
 You access fields with the `.` notation.
 
-Fields available in Blockstacker 0.3:
+Fields available in UStacker 0.3:
 - `Board.Width` - width of the board in blocks
 - `Board.Height` - height of the board in blocks
 - `Board.LethalHeight` - height that has been set in the game settings to be lethal. Is relevant only for certain topout conditions by itself.
@@ -136,7 +136,7 @@ Note: Indexing in Lua starts from 1, but when accessing objects which are taken 
 
 Other than functions in predefined values, you can also call functions that have been registered before running your script.
 
-Functions available in Blockstacker 0.3:
+Functions available in UStacker 0.3:
 
 - `SetText(text)` - this is the same as returning the string from your event function. It will set the text of your stat counter. You can use this when the script is ran for the first time to display some default value before any messages arrive.
 - `SetVisibility(visibility)` - set visibility of your displayed text. 0 is for invisible, 1 for completely opaque. If any visibility animation is happening, this will cancel it.
@@ -148,7 +148,7 @@ Functions available in Blockstacker 0.3:
 
 #### Registering events
 
-Registering events in a stat counter works the universal Blockstacker way. You can read about this way [here](/Game-events.md#subscribing-to-the-events).
+Registering events in a stat counter works the universal UStacker way. You can read about this way [here](/Game-events.md#subscribing-to-the-events).
 
 You can subscribe to every game event that is listed on the event page and additionally to the `CounterUpdated` event that will be called depending on the timestep set in the stat counting settings.
 

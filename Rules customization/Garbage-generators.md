@@ -24,12 +24,12 @@ The garbage generator script needs to implement 2 functions - one for resetting 
 
 ### Predefined values in your script
 
-Before activating your script, Blockstacker will set a global variable `Board`, which will hold the information about the board you're generating garbage for. On this `Board`, you have access to some information that you need to generate garbage.
+Before activating your script, UStacker will set a global variable `Board`, which will hold the information about the board you're generating garbage for. On this `Board`, you have access to some information that you need to generate garbage.
 Board is your interface to the board you're currently managing. It's a reference to the in-game C# object which has multiple fields and methods that you can use.
 
 You access fields with the `.` notation.
 
-Fields available in Blockstacker 0.3:
+Fields available in UStacker 0.3:
 - `Board.Width` - width of the board in blocks
 - `Board.Height` - height of the board in blocks
 - `Board.LethalHeight` - height that has been set in the game settings to be lethal. Is relevant only for certain topout conditions by itself.
@@ -40,7 +40,7 @@ Note: `Board.Slots` dynamic, so if there are no blocks on the board, the `Slots`
 Note: Indexing in Lua starts from 1, but when accessing objects which are taken from C#, this isn't the case. So instead of indexing `Board.Slots` from `1` to `Slots.Count`, you need to index from `0` to `Slots.Count - 1`.
 
 You access functions with the `:` notation.
-Functions available in Blockstacker 0.3:
+Functions available in UStacker 0.3:
 - `Board:AddGarbageLayer(slotsTable, addToLast)` - `slotsTable` is a table of tables of boolean values. Each table represents one line of garbage and should be filled with boolean values, true for garbage block and false for no garbage blocks. `addToLast` is a boolean that decides if this garbage layer should be counted as a part of last added layer. Important for connected skins. Works the same as function in [Garbage generators](Garbage-generators.md).
 
 ### Generator function
@@ -59,11 +59,11 @@ This function is used to reset the state of your garbage generator. It should re
 
 It will be called automatically after loading up your script for the first time.
 
-If you won't use the seed set by this function in your random garbage generation or generate the garbage deterministically, the games with your garbage generator will not be replayable by Blockstacker.
+If you won't use the seed set by this function in your random garbage generation or generate the garbage deterministically, the games with your garbage generator will not be replayable by UStacker.
 
 ### Returning the functions
 
-Similarly to other Lua scripts for Blockstacker, these functions should be returned at the end of your script. But since they aren't subscribing to any events, they should just be returned separated by a comma.
+Similarly to other Lua scripts for UStacker, these functions should be returned at the end of your script. But since they aren't subscribing to any events, they should just be returned separated by a comma.
 
 ### Example script
 

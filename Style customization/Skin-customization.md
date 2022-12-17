@@ -134,7 +134,7 @@ To make creating skins simpler, there are templates available for known skin for
 - [New TETR.IO](/Example%20files/newTetrio.json)
 - [New TETR.IO connected](Example%20files/newTetrioConnected.json)
 
-Jstris is not included because it supports dynamically sized skins, which Blockstacker does not. 
+Jstris is not included because it supports dynamically sized skins, which UStacker does not. 
 
 New TETR.IO and new TETR.IO connected are at the base size - 46 pixels per block.
 

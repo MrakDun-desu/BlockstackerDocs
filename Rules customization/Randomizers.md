@@ -25,7 +25,7 @@ The randomizer script needs to implement 2 functions - one for resetting the sta
 
 ### Predefined values in your script
 
-Before activating your script, Blockstacker will define the `AvailablePieces` variable. This is a table of strings that you will be able to return in your next piece function. If a piece name is defined here, that means that Blockstacker supports spawning this piece. As of version 0.3, the available pieces should be:
+Before activating your script, UStacker will define the `AvailablePieces` variable. This is a table of strings that you will be able to return in your next piece function. If a piece name is defined here, that means that UStacker supports spawning this piece. As of version 0.3, the available pieces should be:
 
 ```lua
 AvailablePieces = {"i", "o", "t", "l", "j", "s", "z"};
@@ -47,7 +47,7 @@ It should receive one argument that is the new seed for your randomizer and retu
 
 It will be also called automatically after loading up your script to initialize the random state before asking for next piece the first time.
 
-If you won't use the seed set by this function in your random number generation or don't generate numbers deterministically, the games with your randomizer will not be replayable by Blockstacker.
+If you won't use the seed set by this function in your random number generation or don't generate numbers deterministically, the games with your randomizer will not be replayable by UStacker.
 
 ### Returning the functions
 

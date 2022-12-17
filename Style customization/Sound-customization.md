@@ -125,7 +125,7 @@ If you want to write your own sound effects script, you can start with [this exa
 
 ## Accepted audio formats
 
-As BlockStacker uses Unity to import audio, it supports the same formats. 
+As UStacker uses Unity to import audio, it supports the same formats. 
 
 - mp3
 - ogg
