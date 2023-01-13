@@ -1,6 +1,3 @@
-Gravity = 1 / 60
-CurrentScore = 0
-
 function HandlePiecePlaced(message)
     local scoreAddition = 0
     if message.WasSpin then
@@ -41,8 +38,7 @@ function HandlePiecePlaced(message)
         scoreAddition = scoreAddition * 1.5
     end
 
-    CurrentScore = CurrentScore + scoreAddition
-    SetScore(CurrentScore, message.Time)
+    AddScore(scoreAddition)
 end
 
 function HandlePieceMoved(message)
@@ -57,15 +53,13 @@ function HandlePieceMoved(message)
         return
     end
 
-    CurrentScore = CurrentScore + scoreAddition
-    SetScore(CurrentScore, message.Time)
+    AddScore(scoreAddition)
 end
 
 function Reset(message)
-    CurrentScore = 0
-    SetScore(CurrentScore, 0)
-    SetLevel("", 0)
-    SetLevelUpCondition(0, 0, 0, "None")
+    ResetScore()
+    SetLevel("")
+    SetLevelUpCondition(0, 0, "None")
 end
 
 return {
