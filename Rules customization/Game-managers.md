@@ -66,9 +66,10 @@ Functions available in UStacker 0.3:
 Other than functions on predefined values, you an also call functions that have been registered before running your script.
 
 Functions available in UStacker 0.3:
-- `EndGame()` - will end game successfully. For more about registering events, look [here](#registering-events).
+- `EndGame()` - will end game successfully.
 - `LoseGame()` - similar to `EndGame`, but will end game as a failure and a replay will not be saved. Note: this is exactly the same as `EndGame` if in game objective settings, "Topping out is okay" is set to true.
-- `SetScore(score)` - will set the game score at a specified time. `score` can be any number, but will be converted to a 64bit signed integer after calling.
+- `AddScore(score)` - will add this value to the current score. `score` can be any number, but will be converted to a 64bit signed integer after calling.
+- `ResetScore()` - will reset the game score to 0.
 - `SetLevel(level)` - will set the game level at a specified time. `level` can be any value, but will be converted to string after calling.
 - `SetLevelUpCondition(current, total, condName)` - will set the level up condition. This is useful for stat counters, so player knows when to expect level to change. `current` is the current value of the level up condition. `total` is the total value needed to get to the next level. Both of these values can be any number, but will be converted to doubles after calling the function. `condName` is name of the condition that you want to be presented to the player. It should be of string type.
 - `SetGameEndCondition(current, total, condName)` - will set the game end condition. This is useful for stat counters, so player knows when to expect the game to end. `current` is the current value of the game end condition. `total` is the total value needed to end game. Both of these can be any number, but will be converted to doubles after calling the function. `condName` is the name of the condition that you want to be presented to the player. It should be of string type.
