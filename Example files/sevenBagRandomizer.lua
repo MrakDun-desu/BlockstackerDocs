@@ -16,8 +16,7 @@ function InitializeCurrentValues()
     end
 end
 
-function Reset(seed)
-    math.randomseed(seed)
+function Reset()
     -- if there are values in current left, we need to remove them first
     local count = #CurrentValues
     for i = 0, count do CurrentValues[i] = nil end
