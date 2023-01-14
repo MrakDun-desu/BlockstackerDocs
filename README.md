@@ -8,6 +8,7 @@ This game is heavily oriented towards enabling the players to customize their ex
 
 - [Used terms](Used-terms.md)
 - [Game events](Game-events.md)
+- [UStacker Lua](UStacker-Lua.md)
 - Style Customization
   - [Background customization](Style%20customization/Background-customization.md)
   - [Skin customization](Style%20customization/Skin-customization.md)
