@@ -19,19 +19,17 @@ function GenerateGarbage(amount, message)
             table.insert(newLine, newHole ~= i)
         end
 
-        -- board is expecting a table of tables, since we can generate
-        -- more lines at once, so we pack it here
-
-        -- the false is for adding to last layer.
-        -- this is important for connected skins, since skin needs to know
-        -- which minos to connect with
+        -- Board is expecting a table of tables, since we can generate
+        -- more lines at once, so we pack it here.
+        -- The false is for adding to last layer.
+        -- This is important for connected skins, since skin needs to know
+        -- which minos to connect with.
         Board:AddGarbageLayer({ newLine }, false)
     end
 end
 
-function Reset(seed)
+function Reset()
     LastHole = -1
-    math.randomseed(seed)
 end
 
 LastHole = -1
