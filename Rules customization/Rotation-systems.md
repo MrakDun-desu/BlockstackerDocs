@@ -23,9 +23,9 @@ Rotation system is essentially just a collection of kick tables for different pi
 Starting state is an enum which has 4 possible values:
 
 - 0 - initial state
-- 1 - rotated 90 degrees counterclockwise
+- 1 - rotated 90 degrees clockwise
 - 2 - rotated 180 degrees
-- 3 - rotated 90 degrees clockwise
+- 3 - rotated 90 degrees counterclockwise
 
 This will change how the piece will spawn, but not how it will appear in queue (as of UStacker version 0.3, might change in the future).
 
