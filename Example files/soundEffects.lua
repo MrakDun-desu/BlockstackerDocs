@@ -58,7 +58,7 @@ function HandlePieceMoved(message)
         return "move"
     elseif message.Y ~= 0 and message.WasSoftDrop then
         return "softdrop"
-    elseif message.Y ~= 0 and message.WasHardDrop then
+    elseif message.WasHardDrop then
         return "harddrop"
     end
 end
@@ -76,19 +76,20 @@ function HandlePieceSpawned(message)
 end
 
 function HandleCountdownTicked(message)
-    if message.RemainingTicks >= 4 then
-        return "countdown5"
+    if message.RemainingTicks >= 2 then
+        return "countdown2"
     end
 
     return "countdown" .. tostring(message.RemainingTicks)
 end
 
-function HandleGameLost(message)
-    return "death"
-end
-
-function HandleGameEnded(message)
-    return "finish"
+function HandleGameStateChange(message)
+    local newState = message.NewState.ToString()
+    if newState == "Lost" then
+        return "death"
+    elseif newState == "Ended" then
+        return "finish"
+    end
 end
 
 return {
@@ -98,6 +99,5 @@ return {
     ["HoldUsed"] = HandleHoldUsed,
     ["PieceSpawned"] = HandlePieceSpawned,
     ["CountdownTicked"] = HandleCountdownTicked,
-    ["GameLost"] = HandleGameLost,
-    ["GameEnded"] = HandleGameEnded,
+    ["GameStateChanged"] = HandleGameStateChange,
 }

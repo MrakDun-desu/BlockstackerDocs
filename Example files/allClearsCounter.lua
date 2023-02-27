@@ -1,19 +1,16 @@
-function Reset()
-    AllClears = 0
-    return "All clears: 0"
-end
-
-function OnPiecePlaced(message)
-    if message.WasAllClear then
-        AllClears = AllClears + 1
+function Reset(message)
+    if message.NewState:ToString() == "Initializing" then
+        return "All clears: 0"
     end
-    return "All clears: " .. AllClears
 end
 
-SetText(Reset())
+function OnPiecePlaced()
+    return "All clears: " .. Stats.AllClears
+end
+
+SetText("All clears: 0")
 SetAlignment("left")
 return {
     ["PiecePlaced"] = OnPiecePlaced,
-    ["GameStarted"] = Reset,
-    ["GameRestarted"] = Reset
+    ["GameStateChanged"] = Reset
 }

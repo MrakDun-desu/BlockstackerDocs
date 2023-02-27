@@ -46,7 +46,7 @@ function HandlePieceMoved(message)
     if message.WasHardDrop then
         scoreAddition = scoreAddition + (message.Y * -2)
     elseif message.WasSoftDrop then
-        scoreAddition = scoreAddition + (-message.Y)
+        scoreAddition = scoreAddition + ( -message.Y)
     end
 
     if scoreAddition == 0 then
@@ -57,14 +57,14 @@ function HandlePieceMoved(message)
 end
 
 function Reset(message)
-    ResetScore()
-    SetLevel("")
-    SetLevelUpCondition(0, 0, "None")
+    if message.NewState:ToString() == "Initializing" then
+        SetLevel("")
+        SetLevelUpCondition(0, 0, "None")
+    end
 end
 
 return {
     ["PiecePlaced"] = HandlePiecePlaced,
     ["PieceMoved"] = HandlePieceMoved,
-    ["GameStarted"] = Reset,
-    ["GameRestarted"] = Reset
+    ["GameStateChanged"] = Reset
 }

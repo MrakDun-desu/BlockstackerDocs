@@ -1,23 +1,18 @@
-function Reset()
-    PiecesPlaced = 0
-    return "Pieces: 0\nPPS: 0"
+function Reset(message)
+    if message.NewState:ToString() == "Initializing" then
+        return FormatOutput()
+    end
 end
 
-function OnPiecePlaced()
-    PiecesPlaced = PiecesPlaced + 1
-    -- we don't need to return here since OnUpdated function
-    -- is being called constantly anyways
-end
-
-function OnUpdated()
+function FormatOutput()
     local pps = Stats.PiecesPerSecond
-    return "Pieces: " .. PiecesPlaced .. "\nPPS: " .. StatUtility:FormatNumber(pps)
+    local piecesPlaced = Stats.PiecesPlaced
+    return "Pieces: " .. piecesPlaced .. "\nPPS: " .. StatUtility:FormatNumber(pps)
 end
 
-SetText(Reset())
+SetText(FormatOutput())
 return {
-    ["CounterUpdated"] = OnUpdated,
-    ["PiecePlaced"] = OnPiecePlaced,
-    ["GameStarted"] = Reset,
-    ["GameRestarted"] = Reset
+    ["CounterUpdated"] = FormatOutput,
+    ["PiecePlaced"] = FormatOutput,
+    ["GameStateChanged"] = Reset
 }

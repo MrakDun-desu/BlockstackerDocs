@@ -28,8 +28,7 @@ return {
 }
 ```
 
-When loading the file, UStacker will check if the contents are a valid 
-Lua script and show you a warning if it isn't.
+If you try registering invalid events, UStacker will display a warning.
 
 Here are the events, ordered in alphabetical order:
 
@@ -37,46 +36,45 @@ Here are the events, ordered in alphabetical order:
 
 Event is triggered whenever the countdown before the game start ticks. Sent message contains these fields:
 
-| Field name     | Field type | Field description                                           |
-| :------------- | :--------- | :---------------------------------------------------------- |
 | RemainingTicks | uint       | Amount of countdown ticks that remain until the game starts |
+| Field name | Field type | Field description |
+| :--------- | :--------- | :---------------- |
 
-## `GameEnded` event
+## `GameEndConditionChanged` event
 
-Event is triggered whenever the game successfully ends. This means that either the game end condition was met,
-or that the player topped out and topping out is okay setting was set to true.
+Event is triggered whenever the game end condition changes. This could be done by a custom game manager or by the game itself. Sent message 
+contains these fields:
 
-This event sends an empty message.
+| Field name    | Field type | Field description                                             |
+| :------------ | :--------- | :------------------------------------------------------------ |
+| ConditionName | string     | The name of the game end condition that has changed           |
+| CurrentCount  | double     | The part of the condition that has already been fulfilled     |
+| TotalCount    | double     | Complete count that has to be fullfilled before the game ends |
+| Time          | double     | Amount of seconds since the start of the game                 |
 
-## `GameLost` event
 
-Event is triggered whenever the game is lost. This means that the player has topped out.
+## `GameStateChanged` event
 
-This event sends an empty message.
+This event is sent whenever game state changes. Sent message contains these fields:
 
-## `GamePaused` event
+| Field name    | Field type | Field description                             |
+| :------------ | :--------- | :-------------------------------------------- |
+| PreviousState | GameState  | State the game has been in until now          |
+| NewState      | GameState  | State the game has transitioned into          |
+| IsReplay      | bool       | Is true if game is currently replaying        |
+| Time          | double     | Amount of seconds since the start of the game |
 
-Event is triggered whenever the game is paused.
+GameState is an enum type, so you will need to call `:ToString()` method on it to compare them.
 
-This event sends an empty message.
-
-## `GameRestarted` event
-
-Event is triggered whenever the game is restarted.
-
-This event sends an empty message.
-
-## `GameResumed` event
-
-Event is triggered whenever the game is resumed.
-
-This event sends an empty message.
-
-## `GameStarted` event
-
-Event is triggered whenever the game is started.
-
-This event sends an empty message.
+Possible values for GameState:
+- "Unset" - game is in this state before it loads first time
+- "Initializing" - game is in this state when it starts or restarts
+- "StartCountdown" - game is in this state after initialization, but before it actually starts running
+- "Running" - game is in this state when it's in progress and inputs are accepted
+- "Paused" - game is in this state when it's in progress, but inputs are not accepted and timer is paused
+- "ResumeCountdown" - game is in this state after unpausing, but before it actually starts running
+- "Ended" - game is in this state after it has been successfully ended
+- "Lost" - game is in this state after it has been ended with failure
 
 ## `HoldUsed` event
 
@@ -107,12 +105,14 @@ Possible values for ActionType are:
 - "RotateCW"
 - "RotateCCW"
 - "Rotate180"
+- "MoveToLeftWall"
+- "MoveToRightWall"
 
 Possible values for KeyActionType are:
 - "KeyUp"
 - "KeyDown"
 
-Note that this event is sent even when the action isn't successful. For actual piece movements, it's better to subscibe to other events.
+Note that this event is sent even when the action isn't successful. For actual piece movements, it's better to subscribe to other events.
 
 A function that sould handle this kind of event could look like this:
 ```lua
@@ -127,9 +127,31 @@ function HandleInputAction(message)
 end
 ```
 
+## `LevelChanged` event
+
+This event is triggered whenever a level changes. It sends a message that contains these fields:
+
+| Field name | Field type | Field description                             |
+| :--------- | :--------- | :-------------------------------------------- |
+| Level      | string     | The name of the new level                     |
+| Time       | double     | Amount of seconds since the start of the game |
+
+The Level field is a string to allow for more freedom in level naming. Like this, custom game managers can make levels with any names they like.
+
+## `LevelUpConditionChanged` event
+
+This event is triggered whenever the level up condition changes. It sends a message that contains these fields:
+
+| Field name    | Field type | Field description                                                   |
+| :------------ | :--------- | :------------------------------------------------------------------ |
+| ConditionName | string     | Name of the level up condition that has just changed                |
+| CurrentCount  | double     | Part of the condition that has already been fulfilled               |
+| TotalCount    | double     | Total count that has to be fulfilled before the level changes again |
+
 ## `PieceMoved` event
 
 Event that is triggered whenever the piece is moved and sends a message that contains these fields:
+
 | Field name  | Field type | Field description                                        |
 | :---------- | :--------- | :------------------------------------------------------- |
 | X           | int        | Number of units the piece has moved on X axis            |
@@ -154,20 +176,24 @@ end
 ## `PiecePlaced` event
 
 Event is triggered whenever the piece is placed and sends a message that contains these fields:
-| Field name        | Field type | Field description                                                   |
-| :---------------- | :--------- | :------------------------------------------------------------------ |
-| LinesCleared      | uint       | Amount of lines cleared with this piece placement                   |
-| CurrentCombo      | uint       | Amount of combo that player has achieved with this placement        |
-| CurrentBackToBack | uint       | Amount of back-to-back player has after this placement              |
-| PieceType         | string     | Name of the piece type that was used in this placement              |
-| WasAllClear       | bool       | Indicates whether this placement was an all clear                   |
-| WasSpin           | bool       | Indicates whether this placement was a full spin                    |
-| WasSpinMini       | bool       | Indicates whether this placement was a spin mini                    |
-| WasSpinRaw        | bool       | Indicates whether this placement would be a full spin with all-spin |
-| WasSpinMiniRaw    | bool       | Indicates whether this placement would be a spin mini with all-spin |
-| BrokenCombo       | bool       | Indicates whether combo was broken with this placement              |
-| BrokenBackToBack  | bool       | Indicates whether back to back was broken with this placement       |
-| Time              | double     | Amount of seconds since the start of the game                       |
+| Field name          | Field type | Field description                                                   |
+| :------------------ | :--------- | :------------------------------------------------------------------ |
+| LinesCleared        | uint       | Amount of lines cleared with this piece placement                   |
+| CurrentCombo        | uint       | Amount of combo that player has achieved with this placement        |
+| CurrentBackToBack   | uint       | Amount of back-to-back player has after this placement              |
+| PieceType           | string     | Name of the piece type that was used in this placement              |
+| WasAllClear         | bool       | Indicates whether this placement was an all clear                   |
+| WasSpin             | bool       | Indicates whether this placement was a full spin                    |
+| WasSpinMini         | bool       | Indicates whether this placement was a spin mini                    |
+| WasSpinRaw          | bool       | Indicates whether this placement would be a full spin with all-spin |
+| WasSpinMiniRaw      | bool       | Indicates whether this placement would be a spin mini with all-spin |
+| BrokenCombo         | bool       | Indicates whether combo was broken with this placement              |
+| BrokenBackToBack    | bool       | Indicates whether back to back was broken with this placement       |
+| Time                | double     | Amount of seconds since the start of the game                       |
+| GarbageLinesCleared | uint       | Amount of garbage lines cleared with this piece placement           |
+| TotalRotation       | int        | Total amount of degrees this piece has rotated since spawning       |
+| TotalMovement       | Vector2Int | Total amount of units this piece has moved since spawning           |
+| WasBtbClear         | bool       | Is true if current clear is treated as back to back clear           |
 
 A function that would handle this kind of event could look like this: 
 ```lua
@@ -187,8 +213,8 @@ Event that is triggered whenever a piece is rotated and sends a message that con
 | Field name     | Field type    | Field description                                                   |
 | :------------- | :------------ | :------------------------------------------------------------------ |
 | PieceType      | string        | Name of the piece type that just moved                              |
-| StartRotation  | RotationState | Starting rotation of the piece in degrees                           |
-| EndRotation    | RotationState | Ending rotation of the piece in degrees                             |
+| StartRotation  | RotationState | Rotation state of active piece before this rotation                 |
+| EndRotation    | RotationState | Rotation state of active piece after this rotation                  |
 | WasSpin        | bool          | Indicates whether the rotation would count as a full spin           |
 | WasSpinMini    | bool          | Indicates whether the rotation would count as a spin mini           |
 | WasSpinRaw     | bool          | Indicates whether this placement would be a full spin with all-spin |
@@ -218,10 +244,20 @@ end
 ## `PieceSpawned` event
 
 Event that is triggered whenever a piece is spawned and sends a message that contains these fields:
+
 | Field name   | Field type | Field description                                                                                                          |
 | :----------- | :--------- | :------------------------------------------------------------------------------------------------------------------------- |
 | SpawnedPiece | string     | Name of the piece type that just spawned                                                                                   |
 | NextPiece    | string     | Name of the next piece that is coming. If the player doesn't have hear next pieces enabled, this is always an empty string |
+| Time         | double     | Amount of seconds since the start of the game                                                                              |
 
+## `ScoreChanged` event
+
+Event that is triggered whenever the score changes. It sends a message that contains these fields:
+
+| Field name | Field type | Field description                             |
+| :--------- | :--------- | :-------------------------------------------- |
+| Score      | long       | The new score value                           |
+| Time       | double     | Amount of seconds since the start of the game |
 
 ---
