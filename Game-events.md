@@ -176,24 +176,25 @@ end
 ## `PiecePlaced` event
 
 Event is triggered whenever the piece is placed and sends a message that contains these fields:
-| Field name          | Field type | Field description                                                   |
-| :------------------ | :--------- | :------------------------------------------------------------------ |
-| LinesCleared        | uint       | Amount of lines cleared with this piece placement                   |
-| CurrentCombo        | uint       | Amount of combo that player has achieved with this placement        |
-| CurrentBackToBack   | uint       | Amount of back-to-back player has after this placement              |
-| PieceType           | string     | Name of the piece type that was used in this placement              |
-| WasAllClear         | bool       | Indicates whether this placement was an all clear                   |
-| WasSpin             | bool       | Indicates whether this placement was a full spin                    |
-| WasSpinMini         | bool       | Indicates whether this placement was a spin mini                    |
-| WasSpinRaw          | bool       | Indicates whether this placement would be a full spin with all-spin |
-| WasSpinMiniRaw      | bool       | Indicates whether this placement would be a spin mini with all-spin |
-| BrokenCombo         | bool       | Indicates whether combo was broken with this placement              |
-| BrokenBackToBack    | bool       | Indicates whether back to back was broken with this placement       |
-| Time                | double     | Amount of seconds since the start of the game                       |
-| GarbageLinesCleared | uint       | Amount of garbage lines cleared with this piece placement           |
-| TotalRotation       | int        | Total amount of degrees this piece has rotated since spawning       |
-| TotalMovement       | Vector2Int | Total amount of units this piece has moved since spawning           |
-| WasBtbClear         | bool       | Is true if current clear is treated as back to back clear           |
+| Field name          | Field type   | Field description                                                    |
+| :------------------ | :----------- | :------------------------------------------------------------------- |
+| LinesCleared        | uint         | Amount of lines cleared with this piece placement                    |
+| CurrentCombo        | uint         | Amount of combo that player has achieved with this placement         |
+| CurrentBackToBack   | uint         | Amount of back-to-back player has after this placement               |
+| PieceType           | string       | Name of the piece type that was used in this placement               |
+| WasAllClear         | bool         | Indicates whether this placement was an all clear                    |
+| WasSpin             | bool         | Indicates whether this placement was a full spin                     |
+| WasSpinMini         | bool         | Indicates whether this placement was a spin mini                     |
+| WasSpinRaw          | bool         | Indicates whether this placement would be a full spin with all-spin  |
+| WasSpinMiniRaw      | bool         | Indicates whether this placement would be a spin mini with all-spin  |
+| BrokenCombo         | bool         | Indicates whether combo was broken with this placement               |
+| BrokenBackToBack    | bool         | Indicates whether back to back was broken with this placement        |
+| Time                | double       | Amount of seconds since the start of the game                        |
+| GarbageLinesCleared | uint         | Amount of garbage lines cleared with this piece placement            |
+| TotalRotation       | int          | Total amount of degrees this piece has rotated since spawning        |
+| TotalMovement       | Vector2Int   | Total amount of units this piece has moved since spawning            |
+| BlockPositions      | Vector2Int[] | An array of all the positions blocks were in when piece was placed   |
+| WasBtbClear         | bool         | Is true if current clear is treated as back to back clear            |
 
 A function that would handle this kind of event could look like this: 
 ```lua
